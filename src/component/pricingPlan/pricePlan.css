@@ -1,0 +1,364 @@
+/* .nav {
+  position: fixed;
+  margin-top: -1vh;
+} */
+.homePageIcon img {
+  width: 4rem;
+  margin-right: 1rem;
+}
+.priceplanHeader {
+  padding: 10vh;
+  margin: auto;
+  padding-bottom: 0;
+}
+#root > div.priceplanHeader > div {
+  width: 100%;
+  margin: auto;
+}
+sup {
+  text-decoration-line: line-through;
+
+  color: #d61919;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.625rem;
+  margin-top: 0rem;
+}
+.priceplanHeader h1 {
+  margin: 5rem auto;
+  color: #407bff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.625rem;
+}
+.priceplanHeader span {
+  color: #011c67;
+}
+
+.priceplanHeader h2 {
+  width: 80vw;
+  margin: 10vh auto;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 2.1875rem;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.monthly {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 12rem;
+  height: 5rem;
+  border: 1px solid #696f79;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.625rem; /* 175% */
+}
+
+.annually {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 12rem;
+  border: 1px solid #696f79;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.625rem;
+}
+.switch {
+  display: flex;
+  justify-content: center;
+}
+
+.costChoice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.pCard {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 0.8rem;
+  width: 26vw;
+  text-align: center;
+  border: 1px solid #000;
+  background: #fff;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.pTitle {
+  font-size: 1.5rem;
+}
+
+.cost {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 2.625rem;
+  margin: 2rem auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+#root > div.costChoice > div > div > p {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.625rem;
+}
+
+.trialButton {
+  background-color: #001b66;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 1.2rem 0;
+  width: 50%;
+}
+
+.selected1 {
+  background: #011c67;
+  color: white;
+}
+.trialButton:hover {
+  background-color: #696f79;
+}
+.pCard h1 {
+  color: #263238;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.625rem;
+  margin: 3rem auto;
+  margin-top: 0;
+}
+.pCard h3 {
+  text-align: left;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+li {
+  display: flex;
+  align-items: left;
+  align-items: center;
+  overflow: hidden;
+  color: #263238;
+  text-align: left;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-style: normal;
+  margin: 0.5rem 0;
+}
+
+li img {
+  width: 1.6rem;
+  margin-right: 10px;
+}
+
+li p {
+  margin: auto 0;
+  white-space: wrap;
+  font-weight: 900;
+}
+
+.clickedB {
+  color: #0e286f;
+  background: white;
+}
+.suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  margin: 4rem auto;
+}
+.suggestion h1 {
+  color: #011c67;
+
+  font-size: 2.25rem;
+
+  font-weight: 600;
+  line-height: 2.625rem;
+}
+.suggestion button {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 0.75rem;
+  border: 1px solid #696f79;
+  cursor: pointer;
+  width: 26rem;
+  padding: 2rem 1.5rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+.suggestion button:hover {
+  color: white;
+  background-color: #007bff;
+}
+
+.frquently {
+  margin-top: 8rem;
+}
+.frquently h1 {
+  text-align: center;
+  color: #011c67;
+
+  font-size: 2.5rem;
+
+  font-weight: 600;
+}
+.frquently li {
+  color: #407bff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: visible;
+  text-align: left;
+  word-wrap: break-word;
+  height: 3.5rem;
+  margin: 2rem;
+}
+.frquently span {
+  color: black;
+}
+.frquently img {
+  margin: auto;
+  width: 25rem;
+}
+.quest {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 0 10vw;
+}
+.switch {
+  padding: 5rem;
+}
+.clicked {
+  color: white;
+  background: #0e286f;
+}
+.pTitle.clicked {
+  color: white;
+}
+@media only screen and (max-width: 1000px) {
+  #root > div.priceplanHeader > div > button {
+    width: 12rem;
+  }
+  .cost {
+    font-size: 3.5rem;
+    margin: 2.5rem auto;
+  }
+  .pTitle {
+    font-size: 1rem;
+  }
+  .trialButton {
+    font-size: 0.6rem;
+    font-weight: 100;
+    width: 70%;
+  }
+  .priceplanHeader {
+    padding: 5rem;
+    padding-bottom: 2rem;
+    background-color: #001b66;
+    color: white;
+  }
+  .priceplanHeader h1 > span {
+    color: white;
+  }
+  sup {
+    font-size: 0.8rem;
+  }
+  #root > div.costChoice > div > div > p {
+    margin: 0;
+    line-height: 1.2rem;
+  }
+  .frquently {
+    margin-top: 0;
+  }
+
+  .frquently li {
+    margin: 0.5rem;
+  }
+  #root > div.costChoice > div > div > ul > li {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+  #root > div.frquently > div > ul > li > div {
+    font-size: 1rem;
+    height: 0rem;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .costChoice div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .switch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #root > div.switch > button {
+    width: 20rem;
+  }
+  .pCard {
+    width: 100%;
+  }
+  .list{
+    width: 80vw;
+  }
+  .pTitle{
+    margin: 0;
+  }
+  .cost{
+    margin: 0;
+  }
+  .pCard h3{
+    width: 80%;
+    margin: 1rem ;
+  }
+}

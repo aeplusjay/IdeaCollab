@@ -1,0 +1,498 @@
+.cardPopUpContainer {
+  position: fixed;
+  background-color: silver;
+  z-index: 100000;
+  top: 3rem;
+  width: 40%;
+  height: 70%;
+  padding: 1rem;
+  height: 35rem !important;
+  width: 40rem;
+  top: 15% !important;
+  left: 30%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2.0625rem;
+  background: #407bff !important;
+  backdrop-filter: blur(2px) !important;
+}
+.cardPopSidebar {
+  background-color: blueviolet;
+
+  margin: -1rem;
+}
+.cardPopUpMain {
+  /* display: grid;
+  grid-template-columns: 4fr 1fr; */
+  height: 100%;
+}
+.cardPopSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2.0625rem;
+  background: #2667f4 !important;
+}
+.cardPopSidebar p {
+  margin: auto;
+}
+.cardPopContain input {
+  color: grey;
+}
+.cardPopContain {
+  /* overflow-y: scroll; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.cardPopUpContainer {
+  position: fixed;
+  background-color: #3498db; /* Blue background color */
+  z-index: 100000;
+  top: 3rem;
+  /* width: 60%; */
+  height: 70%;
+  padding: 1rem;
+  color: white; /* Text color */
+}
+
+.cardPopSidebar {
+  background-color: #2980b9; /* Darker blue sidebar */
+  margin: -1rem;
+}
+
+.cardPopSidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardPopSidebar p {
+  margin: auto;
+  cursor: pointer;
+}
+
+.cardPopContain input {
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.cardPopContain {
+  /* overflow-y: scroll; */
+}
+
+.add {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+li button {
+  margin-left: 8px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.Checklist {
+  margin-top: 16px;
+}
+
+.Checklist input {
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.cardPopSidebar p {
+  padding: 8px;
+  background-color: #2980b9;
+  color: white;
+  cursor: pointer;
+}
+
+.cardPopSidebar p:hover {
+  background-color: #2575a4;
+}
+.comment {
+  height: 15rem;
+  overflow-y: auto;
+  background-color: #2667f4;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 10px;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div.description
+  > textarea {
+  resize: none;
+  color: white;
+  background-color: #2575a4;
+  width: 95%;
+  border-radius: 10px;
+  max-height: 10rem;
+  min-height: 5rem;
+  margin: 0 0.1rem;
+}
+.cardPopContain > .heading {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  margin: 0.5rem 0;
+  justify-content: space-between;
+  align-items: end;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div
+  > button {
+  width: 8rem;
+  height: auto;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div.comment
+  > ul
+  > li {
+  min-height: 5rem;
+  display: flex;
+}
+.comment-item {
+  width: 100%;
+  padding: 1rem;
+  min-height: 8rem;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div.comment
+  > ul
+  > li
+  > img {
+  height: 4rem;
+  border-radius: 50%;
+  width: 4rem;
+  border: 2px solid white;
+}
+.user-info {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: Catamaran;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #2667f4;
+}
+.commentButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.commentButtons > button {
+  margin: 0;
+  border-radius: 1.25rem;
+  border: 1px solid #000;
+  background: ;
+  color: #263238;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  border-radius: 2.0625rem;
+  background: #407bff;
+  backdrop-filter: blur(2px);
+  color: white;
+}
+.commentButtons > button:hover {
+  background-color: white;
+  color: #407bff;
+}
+.comment-text {
+  color: #fff;
+  font-family: Catamaran;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #2667f4;
+  line-height: normal;
+  padding: 0.5rem;
+  width: 20rem;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div:nth-child(5)
+  > input[type="text"] {
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: 1px solid #f5f5f5;
+  background-color: #2667f4;
+  width: 60%;
+  margin: 0;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div:nth-child(5)
+  > button {
+  /* border-radius: 1.25rem; */
+  border: 1px solid #000;
+  background: #fff;
+  color: #263238;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 3.2rem;
+  margin: 0;
+  width: 30%;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div:nth-child(5) {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div:nth-child(1)
+  > h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div:nth-child(2)
+  > textarea {
+  resize: none;
+  display: flex;
+  width: 19.8125rem;
+  padding: 0 0.625rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  height: 4rem;
+  outline: none;
+  width: 100%;
+  background: #407bff;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div:nth-child(2)
+  > button {
+  border-radius: 1.25rem;
+  background: #fff;
+  display: flex;
+  width: 7.5rem;
+  padding: 0.875rem 1.3125rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  color: #455a64;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 4rem;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div:nth-child(4)
+  > input[type="text"] {
+  width: 70%;
+  margin: auto 1rem;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  padding: 0 0.625rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  height: 4rem;
+  outline: none;
+  width: 70%;
+  margin: 1rem;
+  background: #407bff;
+  color: white;
+}
+
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div.addFiles
+  > input[type="file"] {
+  width: 70%;
+  margin: auto 1rem;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  padding: 0 0.625rem;
+  justify-content: center;
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+
+  outline: none;
+  width: 70%;
+  background: #407bff;
+  color: white;
+  justify-content: center;
+  margin-top: -1rem;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div:nth-child(4)
+  > button {
+  height: 4rem;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div
+  > div.addFiles
+  > button {
+}

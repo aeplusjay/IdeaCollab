@@ -1,0 +1,544 @@
+.container {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  text-align: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: auto;
+}
+body {
+  margin: 0;
+  font-size: 1.2vw;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+.resend {
+  cursor: pointer;
+}
+.navbar {
+  display: none;
+  width: 100%;
+}
+.password-strength-container {
+  height: 3vw;
+  margin: 1vw;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vw;
+  padding: 1%;
+  align-items: left;
+  height: auto;
+}
+
+.progress-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.circle {
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid #b5b1b1;
+  border-radius: 50%;
+}
+
+.c1 {
+  background-color: #2047ce;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #b5b1b1;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #011c67;
+}
+
+.right {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: auto auto;
+  width: 65%;
+}
+.Input {
+  width: 32vw;
+  margin: 1rem 0;
+}
+.buttonContainer {
+  width: 100%;
+}
+.input {
+  height: 7vh;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0 1vw;
+  border-radius: 0.375rem;
+  border: 1px solid #8692a6;
+  outline: #8692a6;
+}
+.show {
+  margin-left: -2.5rem;
+}
+.entry {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px;
+  margin: 2vh 0;
+  background-color: #011c67;
+  color: #fff;
+  border: none;
+  width: 32vw;
+  height: 4rem;
+  cursor: pointer;
+  font-size: 1.5vw;
+  border-radius: 0.375rem;
+}
+
+.blue {
+  color: #2047ce;
+  cursor: pointer;
+}
+.lowNavigate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  cursor: pointer;
+  font-size: 1.2vw;
+}
+.light {
+  color: #8692a6;
+}
+
+.errorContainer1 {
+  height: 1vh;
+  color: #d61919;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  margin-top: -3.5vh;
+  margin-left: 1vw;
+}
+
+.error {
+  display: none;
+  font-size: 1vw;
+  margin-top: 0.5rem;
+}
+
+.loginImage {
+  margin-top: -5vh;
+  height: 100vh;
+  width: 40vw;
+}
+.space {
+  margin-top: 10vh;
+}
+form {
+  width: 100%;
+}
+.resend {
+  width: 100%;
+  text-align: center;
+}
+#passwordStrength,
+#resetPass {
+  display: none;
+  font-size: 1vw;
+  margin: 12vh 0;
+}
+.weak {
+  color: red;
+}
+
+.moderate {
+  color: orange;
+}
+
+.strong {
+  color: green;
+}
+.signUpImage {
+  height: 30vw;
+  width: 30vw;
+  margin-bottom: 20vh;
+}
+.signUpLine {
+  text-align: center;
+  color: white;
+  font-size: 1.5vw;
+  width: 30vw;
+}
+.signIC {
+  display: flex;
+  flex-direction: column;
+}
+.signCp {
+  width: 13vw;
+  height: 2.8rem;
+}
+.createPassword {
+  display: flex;
+  gap: 1vw;
+  width: 32vw;
+}
+.signUpInput {
+  margin: 0;
+}
+.checkbox {
+  width: 100%;
+}
+.signUpImage {
+  margin-top: 4vh;
+}
+.signUpErrorContainer {
+  margin-top: -0.1vh;
+  margin-left: 0;
+  margin-bottom: 1vh;
+  height: 2vh;
+  justify-content: left;
+}
+.forLog {
+  flex-direction: row;
+}
+#passwordStrength {
+  display: none;
+  margin-top: -0.2vh;
+  font-size: 1vw;
+}
+
+#root > form > div.container > div.loginContainer.left.signUpLeft > div > h1 {
+  margin-top: 5rem;
+}
+h1 {
+  margin-top: 1rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.error {
+  margin-top: 0rem;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+.button-container>button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+@media only screen and (max-width: 1400px) {
+  .error {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .loginImage {
+    width: 25rem;
+    padding: 10px;
+  }
+  .Input {
+    margin: 1.5rem 0;
+  }
+  #root > form > div.container > div.loginContainer.right.signUpRight > div,
+  #root
+    > form
+    > div.container
+    > div.loginContainer.right.signUpRight
+    > div.createPassword
+    > div {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #root > form > div.container > div.loginContainer.right.signUpRight > div,
+  #root
+    > form
+    > div.container
+    > div.loginContainer.right.signUpRight
+    > div.createPassword
+    > div {
+    margin: auto;
+  }
+  #root
+    > form
+    > div.container
+    > div.loginContainer.right.signUpRight
+    > div.buttonContainer
+    > div
+    > button {
+    height: 3rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    /* background-color: lightblue; */
+    font-size: 1.5vw;
+  }
+
+  .errorContainer {
+    margin-top: -2.9vh;
+  }
+  .Input {
+    margin: 2vw 0;
+  }
+  #root
+    > form
+    > div.container
+    > div.loginContainer.right.signUpRight
+    > div
+    > div
+    > label {
+    font-size: 0.8rem;
+  }
+  .light,
+  .blue {
+    font-size: 2vw;
+  }
+  .signCp {
+    /* width: 88vw; */
+    height: 3vh;
+  }
+  .signUpInput {
+    margin: 0;
+  }
+  .checkbox {
+    width: 100%;
+  }
+  #passwordStrength,
+  #resetPass {
+    font-size: 0.5vw;
+  }
+  #root
+    > form
+    > div.container
+    > div.loginContainer.right.signUpRight
+    > div.createPassword
+    > div
+    > div.signIC
+    > label {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .error {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+  .Input {
+    margin: 1.5rem auto;
+  }
+  .input {
+    height: 4rem;
+  }
+  .button {
+    height: 4rem;
+    font-size: 1rem;
+  }
+  .loginImage {
+    width: 20rem;
+    /* height: 20rem; */
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 3vw;
+    overflow-y: scroll;
+  }
+
+  .circle {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12rem 5rem;
+    height: auto;
+    overflow-y: scroll;
+  }
+
+  .input {
+    margin: 1vw 0;
+    height: 2.5rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .loginImage {
+    /* width: 30rem; */
+    height: 20rem;
+    margin: 0;
+    flex-shrink: 0;
+    margin-top: 8.2rem;
+    /* overflow: hidden; */
+  }
+
+  .right {
+    position: absolute;
+    margin-top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+  }
+
+  .light {
+    font-size: 3vw;
+  }
+
+  .button {
+    font-size: 1rem;
+    width: 90vw;
+    margin-top: 1vh;
+  }
+
+  .navbar {
+    position: fixed;
+    display: flex;
+    background-color: #011c67;
+    height: 5vh;
+
+    margin: 1vw;
+    margin-top: 0;
+    height: 4rem;
+    z-index: 100;
+  }
+  .navbar h3 {
+    color: white;
+    margin: auto 1rem;
+  }
+  .signUpImage {
+    /* height: 45vw; */
+    width: 12rem;
+    margin-top: -2rem;
+  }
+
+  #root > form > div.container > div.loginContainer.left.signUpLeft > div > h1 {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 100;
+    width: 80vw;
+    margin-left: 1rem;
+    margin-top: 15rem;
+  }
+
+  .signIC {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Input {
+    width: 90vw;
+  }
+
+  .createPassword {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 90vw;
+  }
+
+  .signCp {
+    width: 88vw;
+    height: 3rem;
+  }
+
+  .signUpInput {
+    margin: 0;
+  }
+
+  .checkbox {
+    width: 100%;
+  }
+
+  .progress-bar {
+    margin: 1rem 0;
+  }
+
+  .remember {
+    margin-top: -0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .light,
+  .blue {
+    font-size: 1rem;
+  }
+  #root > form > div.navbar > img {
+    width: 2.5rem;
+    margin-left: 1rem;
+  }
+  .left {
+    height: 15rem;
+    background: linear-gradient(to bottom, 50%, white 50%);
+    overflow: visible;
+  }
+
+  .lowNavigate {
+    margin-bottom: 1.5rem;
+  }
+  /* .signUpLine{
+  display: none;
+} */
+  .container {
+    height: 25rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .signUpImage {
+    width: 11rem;
+  }
+  .signIC {
+    margin-bottom: 1rem;
+  }
+  #name,
+  #email,
+  #root
+    > form
+    > div.container
+    > div.loginContainer.right.signUpRight
+    > div.createPassword
+    > div
+    > div.signIC
+    > div
+    > input {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
+  #nameError,
+  #emailError {
+    font-size: 0.8rem;
+    margin-top: -0.1rem;
+  }
+  #passwordStrength,
+  #confPass {
+    font-size: 0.8rem;
+    margin-top: -0.9rem;
+  }
+}

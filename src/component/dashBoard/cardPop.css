@@ -1,0 +1,262 @@
+.cardPopContainer {
+  position: fixed;
+  background-color: white;
+  height: 30rem;
+  width: 40rem;
+  top: 15%;
+  left: 30%;
+  color: silver;
+  position: fixed;
+
+  z-index: 999;
+
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2.0625rem;
+  background: #407bff !important;
+  backdrop-filter: blur(2px) !important;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div.popupbButtons
+  > button {
+  width: 15rem;
+  border-radius: 1.25rem;
+  background: #fff;
+  width: 10rem;
+  padding: 0.875rem 1.3125rem;
+  color: #455a64;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 1rem;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div:nth-child(1) {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+}
+.cardPopContainer > div > h1 {
+  top: 3.6rem;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cardPopContainer input {
+  color: black;
+}
+.popCardList {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 15rem;
+}
+.popDescription {
+  width: 100%;
+  resize: none;
+  color: #2980b9;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.popupbButtons button {
+  width: 20%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div.popCardList
+  > div
+  > p {
+  width: 100%;
+}
+
+.popupbButtons {
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  margin-top: 1rem;
+}
+.popCardList {
+  display: flex;
+  gap: 1rem;
+}
+.popCard {
+  background-color: #ccc;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.cardPopContainer {
+  background-color: #f8f8f8;
+}
+
+.cardPopContainer > h1 {
+  /* ... existing styles ... */
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cardPopContainer input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.popCard {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.popCard:hover {
+  background-color: #2980b9;
+}
+
+.popDescription {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.popupbButtons button {
+  background-color: #3498db;
+}
+
+.popupbButtons button:hover {
+  background-color: #2980b9;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div:nth-child(3)
+  > div
+  > input[type="text"] {
+  margin: 0;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.updateButton {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.updateButton:hover {
+  background-color: #2980b9;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div.dashMain
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div.popCardList
+  > div:nth-child(2)
+  > div {
+  display: flex;
+  flex-direction: column;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div.dashMain
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div.popCardList
+  > div {
+  border-radius: 1.25rem;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopContainer
+  > div:nth-child(3)
+  > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#root
+  > div
+  > div.dashMainContainer
+  > div
+  > div
+  > div
+  > div
+  > div.cardPopUpContainer
+  > div
+  > div.cardPopContain
+  > div.comment
+  > button {
+  color: #2980b9;
+}
+comment-item {
+  margin: 1rem 0;
+}
